@@ -13,4 +13,4 @@ app.use(express.static(path.join(__dirname, 'css')))
 app.use(express.static(path.join(__dirname, 'node_modules/bootstrap/dist/js')))
 app.use(express.static(path.join(__dirname, 'node_modules/@popperjs/core/dist/umd')))
 
-app.listen(process.env.port || 3000);
+app.listen(process.env.port || 3000, '0.0.0.0');
