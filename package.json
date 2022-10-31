@@ -4,11 +4,16 @@
   "description": "",
   "main": "index.html",
   "scripts": {
+    "css": "./node_modules/sass/sass.js scss/main.scss:css/main.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.2.2"
+    "bootstrap": "^5.2.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "sass": "^1.55.0"
   }
 }
