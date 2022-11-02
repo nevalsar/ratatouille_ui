@@ -19,10 +19,6 @@ router.get("/", (req, res) => {
 
 app.use("/", router);
 app.use(express.static(path.join(__dirname, "public")));
-app.use(express.static(path.join(__dirname, "node_modules/bootstrap/dist/js")));
-app.use(
-  express.static(path.join(__dirname, "node_modules/@popperjs/core/dist/umd"))
-);
 
 port = process.env.port || 3000;
 app.listen(port, "0.0.0.0", () => {
