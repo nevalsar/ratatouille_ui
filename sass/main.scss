@@ -1,0 +1,16 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.recipe-image {
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    width: 25rem;
+    padding: 0;
+    margin: 1rem;
+}
+
+.recipes-list {
+    justify-content: space-evenly;
+}
